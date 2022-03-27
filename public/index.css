@@ -1,21 +1,5 @@
-* {
-  margin: 10px;
-  padding: 0;
-  box-sizing: border-box;
-}
-#map{
-  margin-top: 5px;
-  justify-content: center;
-  align-items: center;
-}
-h1{
-  color: rgb(32, 70, 70);
-}
-p {
-  color: rgb(28, 59, 59);
-  background-color:cornflowerblue;
-}
-a{
-  text-decoration: none;
-  color: darkblue;
-}
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+  }
