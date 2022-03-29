@@ -12,7 +12,7 @@
     "weather"
   ],
   "type": "module",
-  "author": "Mehrob",
+  "author": "Author_Name",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.0",
