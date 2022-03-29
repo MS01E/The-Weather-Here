@@ -47,7 +47,7 @@ if (data.length == 0) {
       for (item of data){
       const popup = new mapboxgl.Popup({ offset: 25, closeButton:false,}).setText(
          ` ${item.city}, ${item.description}, температура ${item.temp}°C, влажность ${item.humidity} %. 
-           Последный поиск:${item.timestamp}`
+           Последний поиск:${item.timestamp}`
         );
 
 
